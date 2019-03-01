@@ -1,21 +1,29 @@
-from PIL import image 
+import random
+from PIL import ImageColor, Image, ImageDraw
 
-class MapPicture:
-    """Reads map data from the list"""
+with open('elevation_small.txt') as f:
+    lines = f.read().split()
 
-    pass
+print(lines)
+
+# class MapPicture:
+#     """Reads map data from the list"""
 
 
-class Draw:
-    """Draws colored pixels using map data"""
-    pass
+
+#     pass
+
+
+# class Draw:
+#     """Draws colored pixels using map data"""
+#     pass
    
 
 
 
 
-if __name__ == "__main__":
-    pass
+# if __name__ == "__main__":
+#     pass
 
 
 
