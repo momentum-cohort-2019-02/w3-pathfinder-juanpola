@@ -1,10 +1,13 @@
-"""Reads map data from the list"""
+from PIL import image 
+
 class MapPicture:
+    """Reads map data from the list"""
+
     pass
 
 
-"""Draws colored pixels using map data"""
 class Draw:
+    """Draws colored pixels using map data"""
     pass
    
 
